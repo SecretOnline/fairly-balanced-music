@@ -10,7 +10,9 @@
   "author": "secret_online <me@secretonline.co>",
   "license": "MPL-2.0",
   "devDependencies": {
+    "@types/jszip": "^3.4.0",
     "@types/node": "^24.10.1",
+    "jszip": "^3.10.1",
     "typescript": "^5.9.3"
   }
 }
