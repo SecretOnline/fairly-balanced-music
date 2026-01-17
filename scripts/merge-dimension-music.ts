@@ -17,6 +17,7 @@ interface SoundsJson {
 }
 
 const DIMENSION_IDS = ["overworld", "nether"];
+const EXCLUDED_SOUND_EVENTS = ["music.overworld.deep_dark"];
 
 async function mergeDimensionMusic() {
   const soundsData = await readFile("mojang/sounds.json", "utf-8");
@@ -29,7 +30,7 @@ async function mergeDimensionMusic() {
 
   for (const [key, definition] of Object.entries(sounds)) {
     const prefix = musicByDimension.keys().find((p) => key.startsWith(p));
-    if (!prefix) continue;
+    if (!prefix || EXCLUDED_SOUND_EVENTS.includes(key)) continue;
 
     if (definition.sounds.length === 0) {
       emptyBiomes.add(key);
@@ -55,7 +56,7 @@ async function mergeDimensionMusic() {
 
   for (const [key, definition] of Object.entries(sounds)) {
     const prefix = musicByDimension.keys().find((p) => key.startsWith(p));
-    if (!prefix) continue;
+    if (!prefix || EXCLUDED_SOUND_EVENTS.includes(key)) continue;
 
     const allMusic = Array.from(musicByDimension.get(prefix)!.values());
     updatedSounds[key] = {

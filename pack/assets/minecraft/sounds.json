@@ -234,15 +234,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -250,6 +241,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -410,15 +406,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -426,6 +413,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -586,15 +578,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -604,180 +587,9 @@
         "stream": true
       },
       {
-        "name": "music/game/eld_unknown",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/endless",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/infinite_amethyst",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/pokopoko",
-        "stream": true,
-        "volume": 0.8
-      },
-      {
-        "name": "music/game/wending",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/broken_clocks",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/comforting_memories",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/floating_dream",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/swamp/aerie",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/swamp/firebugs",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/swamp/labyrinthine",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/lilypad",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/stand_tall",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/os_piano",
-        "stream": true,
-        "volume": 0.4
-      }
-    ]
-  },
-  "music.overworld.deep_dark": {
-    "replace": true,
-    "sounds": [
-      {
-        "name": "music/game/crescent_dunes",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/danny",
-        "stream": true
-      },
-      {
-        "name": "music/game/dry_hands",
-        "stream": true
-      },
-      {
-        "name": "music/game/echo_in_the_wind",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/featherfall",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/haggstrom",
-        "stream": true
-      },
-      {
-        "name": "music/game/key",
-        "stream": true
-      },
-      {
-        "name": "music/game/living_mice",
-        "stream": true
-      },
-      {
-        "name": "music/game/mice_on_venus",
-        "stream": true
-      },
-      {
-        "name": "music/game/one_more_day",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/oxygene",
-        "stream": true
-      },
-      {
-        "name": "music/game/subwoofer_lullaby",
-        "stream": true
-      },
-      {
-        "name": "music/game/wet_hands",
-        "stream": true
-      },
-      {
-        "name": "music/game/bromeliad",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/left_to_bloom",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/below_and_above",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/clark",
-        "stream": true
-      },
-      {
-        "name": "music/game/minecraft",
-        "stream": true
-      },
-      {
-        "name": "music/game/sweden",
-        "stream": true
-      },
-      {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
         "name": "music/game/deeper",
         "stream": true,
         "volume": 0.4
-      },
-      {
-        "name": "music/game/fireflies",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
-        "name": "music/game/an_ordinary_day",
-        "stream": true
       },
       {
         "name": "music/game/eld_unknown",
@@ -938,15 +750,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -954,6 +757,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -1114,15 +922,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -1130,6 +929,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -1290,15 +1094,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -1306,6 +1101,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -1466,15 +1266,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -1482,6 +1273,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -1642,15 +1438,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -1658,6 +1445,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -1818,15 +1610,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -1834,6 +1617,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -1994,15 +1782,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -2010,6 +1789,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -2170,15 +1954,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -2186,6 +1961,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -2346,15 +2126,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -2362,6 +2133,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -2522,15 +2298,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -2538,6 +2305,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -2698,15 +2470,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -2714,6 +2477,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -2874,15 +2642,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -2890,6 +2649,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -3050,15 +2814,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -3066,6 +2821,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -3226,15 +2986,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -3242,6 +2993,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
@@ -3402,15 +3158,6 @@
         "stream": true
       },
       {
-        "name": "music/game/ancestry",
-        "stream": true
-      },
-      {
-        "name": "music/game/deeper",
-        "stream": true,
-        "volume": 0.4
-      },
-      {
         "name": "music/game/fireflies",
         "stream": true,
         "volume": 0.4
@@ -3418,6 +3165,11 @@
       {
         "name": "music/game/an_ordinary_day",
         "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/eld_unknown",
