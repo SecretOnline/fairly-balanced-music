@@ -19,6 +19,7 @@ interface SoundsJson {
 
 const DIMENSION_IDS = ["overworld", "nether"];
 const EXCLUDED_SOUND_EVENTS = ["music.overworld.deep_dark"];
+const ADDITIONAL_OVERWORLD_EVENTS = ["music.creative"];
 
 function expandSoundEntry(
   entry: SoundEntry,
@@ -97,6 +98,27 @@ async function mergeDimensionMusic() {
             entry.volume = expandedSound.volume;
           }
           overworldMusic.set(expandedSound.name, entry);
+        }
+      }
+    }
+  }
+
+  for (const eventKey of ADDITIONAL_OVERWORLD_EVENTS) {
+    const eventDefinition = sounds[eventKey];
+    if (eventDefinition) {
+      for (const sound of eventDefinition.sounds) {
+        const expandedSounds = expandSoundEntry(sound, sounds);
+        for (const expandedSound of expandedSounds) {
+          if (!overworldMusic.has(expandedSound.name)) {
+            const entry: SoundEntry = {
+              name: expandedSound.name,
+              stream: expandedSound.stream,
+            };
+            if (expandedSound.volume !== undefined) {
+              entry.volume = expandedSound.volume;
+            }
+            overworldMusic.set(expandedSound.name, entry);
+          }
         }
       }
     }
