@@ -1,0 +1,57 @@
+name: Update Pack
+
+on:
+  schedule:
+    - cron: "0 0 * * 4"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: .node-version
+
+      - name: Download version data
+        run: |
+          node scripts/download-sounds-json.ts
+          node scripts/download-version-json.ts
+          node scripts/merge-dimension-music.ts
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Update platform supported versions
+        if: steps.changes.outputs.changed == 'false'
+        env:
+          MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+        run: node scripts/update-supported-versions.ts
+
+      - name: Set pack version
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/set-pack-version.ts
+
+      - name: Create Pull Request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          add-paths: |
+            pack/pack.mcmeta
+            pack/assets/minecraft/sounds.json
+          commit-message: "[Auto] Update sounds.json"
+          branch: auto-update/sounds.json
+          delete-branch: true
+          author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          title: "[Auto] Update sounds.json"
+          body: |
+            Automatic update for sounds.json.
