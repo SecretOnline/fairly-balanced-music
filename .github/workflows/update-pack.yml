@@ -19,6 +19,7 @@ jobs:
         run: |
           node scripts/download-sounds-json.ts
           node scripts/download-version-json.ts
+          node scripts/download-lang-json.ts
           node scripts/merge-dimension-music.ts
 
       - name: Check for changes
@@ -40,6 +41,10 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         run: node scripts/set-pack-version.ts
 
+      - name: Update changelog
+        if: steps.changes.outputs.changed == 'true'
+        run: node scripts/update-changelog.ts
+
       - name: Create Pull Request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8
@@ -47,6 +52,7 @@ jobs:
           add-paths: |
             pack/pack.mcmeta
             pack/assets/minecraft/sounds.json
+            CHANGELOG.md
           commit-message: "[Auto] Update sounds.json"
           branch: auto-update/sounds.json
           delete-branch: true
