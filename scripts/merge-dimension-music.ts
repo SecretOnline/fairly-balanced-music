@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 
 interface SoundEntry {
   name: string;
+  type?: string;
   stream?: boolean;
   volume?: number;
   weight?: number;
@@ -18,6 +19,32 @@ interface SoundsJson {
 
 const DIMENSION_IDS = ["overworld", "nether"];
 const EXCLUDED_SOUND_EVENTS = ["music.overworld.deep_dark"];
+
+function expandSoundEntry(
+  entry: SoundEntry,
+  sounds: SoundsJson,
+  visited = new Set<string>(),
+): SoundEntry[] {
+  if (entry.type === "event") {
+    if (visited.has(entry.name)) {
+      console.warn(`Circular reference detected for event: ${entry.name}`);
+      return [];
+    }
+    visited.add(entry.name);
+
+    const eventDefinition = sounds[entry.name];
+    if (!eventDefinition) {
+      console.warn(`Event reference not found: ${entry.name}`);
+      return [];
+    }
+
+    return eventDefinition.sounds.flatMap((sound) =>
+      expandSoundEntry(sound, sounds, visited),
+    );
+  }
+
+  return [entry];
+}
 
 async function mergeDimensionMusic() {
   const soundsData = await readFile("mojang/sounds.json", "utf-8");
@@ -39,15 +66,38 @@ async function mergeDimensionMusic() {
 
     const dimensionMusic = musicByDimension.get(prefix)!;
     for (const sound of definition.sounds) {
-      if (!dimensionMusic.has(sound.name)) {
-        const entry: SoundEntry = {
-          name: sound.name,
-          stream: sound.stream,
-        };
-        if (sound.volume !== undefined) {
-          entry.volume = sound.volume;
+      const expandedSounds = expandSoundEntry(sound, sounds);
+      for (const expandedSound of expandedSounds) {
+        if (!dimensionMusic.has(expandedSound.name)) {
+          const entry: SoundEntry = {
+            name: expandedSound.name,
+            stream: expandedSound.stream,
+          };
+          if (expandedSound.volume !== undefined) {
+            entry.volume = expandedSound.volume;
+          }
+          dimensionMusic.set(expandedSound.name, entry);
         }
-        dimensionMusic.set(sound.name, entry);
+      }
+    }
+  }
+
+  const overworldMusic = musicByDimension.get("music.overworld.")!;
+  const musicGameDefinition = sounds["music.game"];
+  if (musicGameDefinition) {
+    for (const sound of musicGameDefinition.sounds) {
+      const expandedSounds = expandSoundEntry(sound, sounds);
+      for (const expandedSound of expandedSounds) {
+        if (!overworldMusic.has(expandedSound.name)) {
+          const entry: SoundEntry = {
+            name: expandedSound.name,
+            stream: expandedSound.stream,
+          };
+          if (expandedSound.volume !== undefined) {
+            entry.volume = expandedSound.volume;
+          }
+          overworldMusic.set(expandedSound.name, entry);
+        }
       }
     }
   }
@@ -64,6 +114,12 @@ async function mergeDimensionMusic() {
       sounds: emptyBiomes.has(key) ? [] : allMusic,
     };
   }
+
+  const overworldMusicList = Array.from(overworldMusic.values());
+  updatedSounds["music.game"] = {
+    replace: true,
+    sounds: overworldMusicList,
+  };
 
   await writeFile(
     "pack/assets/minecraft/sounds.json",
