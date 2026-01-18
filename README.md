@@ -26,3 +26,7 @@ All of the existing Nether music plays in all biomes, except for the Warped Fore
 ### The End
 
 The music in The End has not been changed.
+
+## Acknowledgements
+
+The headphones in the mod icon come from the [Simple Hats](https://modrinth.com/mod/simple-hats) mod. It's pretty cool and has lots of hats.
