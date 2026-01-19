@@ -2,6 +2,8 @@
 
 I like the classic Minecraft soundtrack. I also like the newer additions too. I want to hear it all no matter where I am in the world, so let's throw it all into one great big list and let the game select from it at random. No more biome-specific music, no more weighting of certain tracks that drown out the rest. Just all of the music, selected fairly, and fairly balanced.
 
+![Sunny grooving while wearing headphones in a Grove](https://cdn.modrinth.com/data/J0yQda7B/images/754a4fbcb80c1d8a93c1f3d97c33a5bf8b526ada.png)
+
 ## Changes to music
 
 ### Overworld
@@ -26,6 +28,10 @@ All of the existing Nether music plays in all biomes, except for the Warped Fore
 ### The End
 
 The music in The End has not been changed.
+
+## License
+
+This resource pack is licensed under the Mozilla Public License 2.0. You may use this resource pack in your mod packs.
 
 ## Acknowledgements
 
