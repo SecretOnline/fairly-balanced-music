@@ -161,6 +161,28 @@ async function updateChangelog() {
 
   await writeFile("CHANGELOG.md", changelog);
 
+  const prBodyLines = ["Automatic update for sounds.json.", ""];
+
+  prBodyLines.push("### Added", "");
+  if (addedOverworldTracks.length > 0) {
+    prBodyLines.push("- Overworld");
+    for (const track of addedOverworldTracks.sort()) {
+      prBodyLines.push(`  - ${getSoundName(track, langData)}`);
+    }
+  }
+  if (addedNetherTracks.length > 0) {
+    prBodyLines.push("- Nether");
+    for (const track of addedNetherTracks.sort()) {
+      prBodyLines.push(`  - ${getSoundName(track, langData)}`);
+    }
+  }
+  prBodyLines.push(
+    "",
+    `Updated version number to \`${newVersion}\`. Copy this number for the [deploy workflow](https://github.com/SecretOnline/fairly-balanced-music/actions/workflows/deploy.yml).`,
+  );
+
+  await writeFile("pr-body.md", prBodyLines.join("\n") + "\n");
+
   console.log("Updated CHANGELOG.md:");
   console.log(`- Added ${addedOverworldTracks.length} overworld tracks`);
   console.log(`- Added ${addedNetherTracks.length} nether tracks`);
