@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import JSZip from "jszip";
 
 interface VersionManifest {
-  latest: { release: string };
+  latest: { release: string; snapshot: string };
   versions: { id: string; url: string }[];
 }
 
@@ -22,7 +22,8 @@ async function downloadLangJson() {
     r.json(),
   )) as VersionManifest;
 
-  const releaseVersion = manifest.latest.release;
+  const versionType = (process.env.VERSION_TYPE ?? "release") as "release" | "snapshot";
+  const releaseVersion = manifest.latest[versionType];
 
   const versionData = (await fetch(
     manifest.versions.find((v) => v.id === releaseVersion)!.url,

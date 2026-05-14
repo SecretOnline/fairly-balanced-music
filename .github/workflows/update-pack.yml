@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: "0 0 * * 4"
   workflow_dispatch:
+    inputs:
+      version_type:
+        description: "Version type to fetch"
+        required: true
+        default: release
+        type: choice
+        options:
+          - release
+          - snapshot
 
 jobs:
   update:
@@ -19,6 +28,8 @@ jobs:
         run: npm ci
 
       - name: Download version data
+        env:
+          VERSION_TYPE: ${{ inputs.version_type || 'release' }}
         run: |
           node scripts/download-sounds-json.ts
           node scripts/download-version-json.ts
