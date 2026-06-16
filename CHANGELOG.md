@@ -15,6 +15,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## Unreleased - DATE
 
+## v1.1.0 - 2026-06-16
+
+### Added
+
+- Overworld
+  - fingerspit - Ebb
+  - fingerspit - Home
+  - fingerspit - Memories
+  - fingerspit - Nightly
+  - fingerspit - Shores
+
 ## v1.0.0 - 2026-01-19
 
 ### Added

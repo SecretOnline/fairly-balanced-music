@@ -186,6 +186,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -212,6 +217,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -230,6 +240,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -244,6 +259,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -266,6 +286,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -407,6 +432,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -433,6 +463,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -451,6 +486,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -465,6 +505,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -487,6 +532,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -628,6 +678,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -654,6 +709,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -672,6 +732,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -686,6 +751,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -708,6 +778,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -849,6 +924,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -875,6 +955,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -893,6 +978,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -907,6 +997,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -929,6 +1024,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -1070,6 +1170,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -1096,6 +1201,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -1114,6 +1224,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -1128,6 +1243,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -1150,6 +1270,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -1291,6 +1416,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -1317,6 +1447,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -1335,6 +1470,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -1349,6 +1489,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -1371,6 +1516,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -1512,6 +1662,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -1538,6 +1693,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -1556,6 +1716,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -1570,6 +1735,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -1592,6 +1762,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -1733,6 +1908,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -1759,6 +1939,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -1777,6 +1962,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -1791,6 +1981,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -1813,6 +2008,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -1954,6 +2154,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -1980,6 +2185,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -1998,6 +2208,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -2012,6 +2227,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -2034,6 +2254,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -2175,6 +2400,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -2201,6 +2431,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -2219,6 +2454,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -2233,6 +2473,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -2255,6 +2500,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -2396,6 +2646,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -2422,6 +2677,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -2440,6 +2700,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -2454,6 +2719,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -2476,6 +2746,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -2617,6 +2892,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -2643,6 +2923,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -2661,6 +2946,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -2675,6 +2965,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -2697,6 +2992,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -2838,6 +3138,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -2864,6 +3169,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -2882,6 +3192,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -2896,6 +3211,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -2918,6 +3238,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -3059,6 +3384,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -3085,6 +3415,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -3103,6 +3438,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -3117,6 +3457,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -3139,6 +3484,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -3280,6 +3630,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -3306,6 +3661,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -3324,6 +3684,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -3338,6 +3703,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -3360,6 +3730,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -3501,6 +3876,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -3527,6 +3907,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -3545,6 +3930,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -3559,6 +3949,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -3581,6 +3976,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -3722,6 +4122,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -3748,6 +4153,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -3766,6 +4176,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -3780,6 +4195,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -3802,6 +4222,257 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/broken_clocks",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/lilypad",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/os_piano",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/a_familiar_room",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/komorebi",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/puzzlebox",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/watcher",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/yakusoku",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/creative/aria_math",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/biome_fest",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/blind_spots",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/dreiton",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/haunt_muskie",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/taswell",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.sulfur_caves": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/crescent_dunes",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/danny",
+        "stream": true
+      },
+      {
+        "name": "music/game/dry_hands",
+        "stream": true
+      },
+      {
+        "name": "music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/featherfall",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/haggstrom",
+        "stream": true
+      },
+      {
+        "name": "music/game/key",
+        "stream": true
+      },
+      {
+        "name": "music/game/living_mice",
+        "stream": true
+      },
+      {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/mice_on_venus",
+        "stream": true
+      },
+      {
+        "name": "music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/oxygene",
+        "stream": true
+      },
+      {
+        "name": "music/game/subwoofer_lullaby",
+        "stream": true
+      },
+      {
+        "name": "music/game/wet_hands",
+        "stream": true
+      },
+      {
+        "name": "music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/below_and_above",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/clark",
+        "stream": true
+      },
+      {
+        "name": "music/game/minecraft",
+        "stream": true
+      },
+      {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/sweden",
+        "stream": true
+      },
+      {
+        "name": "music/game/fireflies",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/an_ordinary_day",
+        "stream": true
+      },
+      {
+        "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/eld_unknown",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/endless",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/pokopoko",
+        "stream": true,
+        "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -3943,6 +4614,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -3969,6 +4645,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -3987,6 +4668,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -4001,6 +4687,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -4023,6 +4714,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
@@ -4164,6 +4860,11 @@
         "stream": true
       },
       {
+        "name": "music/game/memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/mice_on_venus",
         "stream": true
       },
@@ -4190,6 +4891,11 @@
         "volume": 0.4
       },
       {
+        "name": "music/game/home",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/left_to_bloom",
         "stream": true,
         "volume": 0.4
@@ -4208,6 +4914,11 @@
         "stream": true
       },
       {
+        "name": "music/game/nightly",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
         "name": "music/game/sweden",
         "stream": true
       },
@@ -4222,6 +4933,11 @@
       },
       {
         "name": "music/game/deeper",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "music/game/ebb",
         "stream": true,
         "volume": 0.4
       },
@@ -4244,6 +4960,11 @@
         "name": "music/game/pokopoko",
         "stream": true,
         "volume": 0.8
+      },
+      {
+        "name": "music/game/shores",
+        "stream": true,
+        "volume": 0.4
       },
       {
         "name": "music/game/wending",
