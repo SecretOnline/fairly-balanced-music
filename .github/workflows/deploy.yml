@@ -37,6 +37,7 @@ jobs:
           echo "release-name=$PACK_NAME v$VERSION" >> $GITHUB_OUTPUT
           echo "artifact-file=$NO_SPACE_NAME-v$VERSION.zip" >> $GITHUB_OUTPUT
           echo "modrinth-project-id=$(jq -r '.["modrinth-id"]' project.json)" >> $GITHUB_OUTPUT
+          echo "curseforge-project-id=$(jq -r '.["curseforge-id"]' project.json)" >> $GITHUB_OUTPUT
 
       - name: Parse changelog
         id: changelog
@@ -74,7 +75,9 @@ jobs:
           changelog: ${{ steps.changelog.outputs.release-notes }}
           loaders: minecraft
           files: ${{ steps.deploy-info.outputs.artifact-file }}
+          modrinth-id: ${{ steps.deploy-info.outputs.modrinth-project-id }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: ${{ steps.deploy-info.outputs.curseforge-project-id }}
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
 
       - name: Update Modrinth decription
